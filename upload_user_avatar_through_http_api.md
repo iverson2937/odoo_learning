@@ -1,3 +1,4 @@
+```
 @http.route('/user/avatar', tyep="http", auth="user", mehtod=['POST'], csrf=False)
     def update_avatar(self, *args, **kwargs):
         """更新用户头像"""
@@ -16,3 +17,5 @@
         resp_json = json.dumps({'result': resp_msg})
         response = request.make_response(resp_json)
         return response
+
+```
