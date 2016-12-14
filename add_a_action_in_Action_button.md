@@ -6,7 +6,7 @@ references
 
 ```
 <!--  Action button -->
-    <record id="server_action_id" model="ir.actions.server">
+      <record id="server_action_id" model="ir.actions.server">
             <field name="name">server_action_name</field>
             <field name="type">ir.actions.server</field>
             <field name="model_id" ref="model_model_name"/>
