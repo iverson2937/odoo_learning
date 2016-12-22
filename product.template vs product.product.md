@@ -46,6 +46,10 @@
 
 ## 开发中使用`product.product`还是`product.template`?
 
-添加公有字段继承`product.template`添加
+- 添加公有字段继承`product.template`添加
 
-关联产品时，应关联到`product.product`而不是`product.templateS`
+  这样同一个产品模板的产品变型中新增的字段值就一样了。如果需要值不一样，那就应该考虑增加新的产品变型。
+
+- 关联产品时，应关联到`product.product`而不是`product.template`
+
+  这样咱们自己写的代码才能对产品变型起作用
