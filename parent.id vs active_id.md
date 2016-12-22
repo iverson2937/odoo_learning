@@ -1,6 +1,7 @@
 在`form`视图中怎么表示当前记录呢？
 
 >同级字段用`active_id`，
+>
 >`Many2many``One2many`嵌套`tree`视图中的字段用`parent.id`
 
 ```Xml
