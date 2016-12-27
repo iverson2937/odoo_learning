@@ -1,4 +1,4 @@
-## Odoo 学习笔记
+# Odoo 学习笔记
 
 这个仓库主要是翻译《Odoo Development Essentials》，并记录自己在工作中遇到的问题，这些问题一般都是折腾好久才搞定的，或者《Odoo Development Essentials》《Odoo Develoment Cookbook》上没有涉及到的的。
 
@@ -48,7 +48,7 @@
 
 
 
-# 工作上遇到的问题
+## 工作上遇到的问题
 
 1. [Mac 应用环境搭建](https://github.com/jachinlin/odoo_learning/blob/master/setup_an_odoo_10_development_environment_in_mac.md)
 
